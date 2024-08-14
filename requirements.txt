@@ -1,2 +1,6 @@
 python-telegram-bot==20.3
 requests==2.31.0
+pip install python-telegram-bot[job-queue]
+mkdir myenv
+python3 -m venv myenv
+source myenv/bin/activate
